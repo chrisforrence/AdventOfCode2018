@@ -68,13 +68,12 @@ foreach ($ids as $id) {
     $eligibleIds[$id] = 0;
 }
 
-/*
 for ($x = 0, $c = count($grid); $x < $c; $x++) {
     for ($y = 0, $d = count($grid[$x]); $y < $d; $y++) {
         echo $grid[$x][$y];
     }
     echo PHP_EOL;
-}*/
+}
 
 for ($x = 0, $c = count($grid); $x < $c; $x++) {
     for ($y = 0, $d = count($grid[$x]); $y < $d; $y++) {
